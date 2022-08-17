@@ -1,0 +1,7 @@
+ENTITY_DAMAGE {
+	Damage(damage = 10, entity = $obj2)
+}
+
+ENTITY_TOUCH_ALL {
+	Damage(damage = 20, entity = $obj1)
+}

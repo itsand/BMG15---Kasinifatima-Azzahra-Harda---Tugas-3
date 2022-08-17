@@ -1,0 +1,24 @@
+{
+  "data": {
+    "castAction": {
+      "castAction": "aim3"
+    },
+    "damage": 10,
+    "name": {
+      "value": "skill_system_c71599bd-ac74-4add-9b38-23cd6e452e86"
+    },
+    "skillIcon": {
+      "asset": "asset/Texture/Skill/common/icon_½üÕ½¹¥»÷_act.png"
+    },
+    "skillIconPushed": {
+      "asset": "asset/Texture/Skill/common/icon_½üÕ½¹¥»÷_nor.png"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2e4ecd060e12049c5b7ea4903a9c38b1",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,11 @@
+ENTITY_DIE {
+	ReviveEntity(entity = $obj1, map = $map, pos = { x = 47, y = 51, z = 30 })
+}
+
+ENTITY_DAMAGE {
+	Damage(damage = 10, entity = $obj1)
+}
+
+GAME_GO {
+	AddSkill(entity = $obj1, name = "myplugin/7c62b6ec-ad77-4f15-a248-7638d8b98676")
+}

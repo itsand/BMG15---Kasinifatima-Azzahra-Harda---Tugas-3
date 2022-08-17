@@ -1,0 +1,36 @@
+{
+  "data": {
+    "castAction": {
+      "castAction": "aim1"
+    },
+    "castSound": {
+      "volume": {
+        "value": 0.87
+      }
+    },
+    "damage": 20,
+    "isTouch": true,
+    "lifeTime": {
+      "value": 0.2
+    },
+    "name": {
+      "value": "skill_system_7c62b6ec-ad77-4f15-a248-7638d8b98676"
+    },
+    "skillIcon": {
+      "asset": "asset/Texture/Skill/common/icon_½üÕ½¹¥»÷_act.png"
+    },
+    "skillIconPos": {
+      "area_number": 9
+    },
+    "skillIconPushed": {
+      "asset": "asset/Texture/Skill/common/icon_½üÕ½¹¥»÷_nor.png"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a378b5f026d5ea4b26ec932f1f97a4c1",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

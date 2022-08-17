@@ -1,0 +1,77 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_bedrock"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/bedrock.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/bedrock.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/bedrock.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/bedrock.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/bedrock.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/bedrock.png"
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "50be448d-d20b-4002-8caa-65f8d8c122ea"
+            },
+            "type": "Trigger_BlockOn"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "3a4d5f80-9379-4e22-85e8-55ed7853859a"
+            },
+            "pos": {
+              "x": 31,
+              "y": 6
+            }
+          },
+          "type": "Trigger_BlockOn"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "073266a251502917137dee491182ac32",
+      "triggers.bts": "67c93d7a84ce205687d73a82353fd2bc"
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_concrete_red"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/concrete_red.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/concrete_red.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/concrete_red.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/concrete_red.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/concrete_red.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/concrete_red.png"
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GameOver",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params"
+                }
+              ],
+              "id": {
+                "value": "ce165d70-2c42-462e-a620-78fadf1ce7d0"
+              },
+              "pos": {
+                "x": 453,
+                "y": 118
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "05074543-e9fe-4b6d-8191-973ee2ea0ef6"
+            },
+            "type": "Trigger_BlockOn"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "ce165d70-2c42-462e-a620-78fadf1ce7d0"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "532b1cc6-f5df-431c-abe7-09d1fe3cb614"
+            },
+            "pos": {
+              "x": 131,
+              "y": 117
+            }
+          },
+          "type": "Trigger_BlockOn"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bb554697d9560f141c6ebb5b3c21c18d",
+      "triggers.bts": "ad5528817e1d642787a89133916b472e"
+    },
+    "VERSION": "0.22"
+  }
+}
